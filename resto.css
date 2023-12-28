@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#img1{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#div1{
+    height: 3.5rem;
+}
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+.nav-link{
+    font-size: 15px;
+    font-weight: 500;
+}
+.images{
+    width: 100%;
+    height: 40rem;
+}
+#menu{
+    text-align: center;
+    font-style: italic;
+    height: 2.5rem;
+}
+#tit:hover{
+    color: white;
+}
+#items{
+    display: flex;
+}
+#items2{
+    display: flex;
+}
+#menu2{
+    text-align: center;
+    font-style: italic;
+    height: 2.5rem;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#deli:hover{
+    color: white;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 0px;
+    height: 2.5rem;
+    color: black;
+    
+}
+.heading:hover{
+    color: white;
+}
+.con-icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+    display: flex;
+    margin: 0px 15px;
+}
+.con-icons:hover
+{
+    /*background-color: orangered;*/
+    background-image: linear-gradient(to bottom right,yellow,rgb(255,98,0));
+}
+.contacts i{
+    color: black;
+    font-size: 2rem;
+}
+.con-icons:hover i{
+    color: white;
+}
+.con-icons:hover i{
+    color: white;
+    animation: shake 1s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+    
+}

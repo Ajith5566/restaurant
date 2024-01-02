@@ -16,20 +16,20 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div id="div1">
-            <nav class="navbar navbar-expand-lg bg-success">
+        <div>
+            <nav id="div1" class="navbar navbar-expand-lg bg-success">
                 <div class="container-fluid">
                     <img id="img1" src="./images/restaurant-logo-design-template_79169-56.avif"alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#div2">Home</a>
+                        <a class="nav-link" aria-current="page" href="#div2">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#menu">Menu</a>
                       </li>
                       <li class="nav-item ">
-                        <a class="nav-link" href="">Location</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#order">Order</a>
@@ -43,31 +43,17 @@
                 </div>
               </nav>
         </div>
-        <div id="div2">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="images" src="https://www.seriouseats.com/thmb/-KA2hwMofR2okTRndfsKtapFG4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__05__Anova-Steak-Guide-Sous-Vide-Photos15-beauty-159b7038c56a4e7685b57f478ca3e4c8.jpg" class="d-block" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="images" src="https://feelgoodfoodie.net/wp-content/uploads/2023/09/Cast-Iron-Skillet-Steak-TIMG.jpg" class="d-block " alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="images" src="https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4.jpg" class="d-block " alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-        <div>
+        <!-- home -->
+        <section id="div2">
+          <div>
+            <h4 id="welcome">Welcome to our restaurant</h4>
+            <button id="o" type="button"class="btn btn btn-success">
+             <a href="#menu" id="hr"> click to order</a>
+            </button>
+          </div>
+        </section>
           <!-- menu -->
+        <section >
           <div id="menu" class="bg-success">
             <h2 id="tit">Menu</h2>
           </div>
@@ -155,9 +141,9 @@
               </div>
             </div>
           </div>
-        </div>
+        <section>
         <!-- Order -->
-        <div id="order">
+        <section id="order">
           <div id="menu2" class="bg-success">
             <h2 class="pt-2" id="deli">Home Delivery</h2>
           </div>
@@ -205,9 +191,10 @@
               </div>
               <button type="submit" class="btn btn-danger">Place Order</button>
             </form>
-          </div>
+          </div>  
+        </section>
           <!-- contacts -->
-          <section id="contact">
+          <footer id="contact">
             <div class="heading bg-success">
                 <h2>Contact</h2>         
             </div>
@@ -228,7 +215,7 @@
 
             </div>
         
-        </section>
+          </footer>
         </div>
     </div>
     

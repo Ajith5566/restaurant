@@ -43,22 +43,34 @@
 #o:hover{
     opacity: 1;
 }
-#menu{
-    text-align: center;
-    font-style: italic;
-    height: 2.5rem;
-}
 #tit:hover{
     color: white;
 }
-#items{
-    display: flex;
-    padding-left: 4px;
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
 }
-#items2{
-    display: flex;
-    padding-top: 1px;
-    padding-left: 4px;
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0px auto;
+}
+/*menu*/
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: black;
+    border-radius: 100px;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: orangered;
+    color: white;
+}
+.menu-item .stars{
+    color: orangered;
+}
+.info{
+    text-align: justify;
 }
 #menu2{
     text-align: center;
